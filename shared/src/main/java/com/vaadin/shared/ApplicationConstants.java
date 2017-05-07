@@ -239,4 +239,18 @@ public class ApplicationConstants implements Serializable {
     public static final String FRONTEND_URL_ES5_DEFAULT_VALUE = VAADIN_PROTOCOL_PREFIX
             + "frontend/es5/";
 
+    /**
+     * Name of the HTML5 DnD Polyfill JavaScript file.
+     *
+     * @since 8.1
+     */
+    // TODO replace with minified version
+    public static final String MOBILE_DND_POLYFILL_JS = "drag-drop-polyfill.js";
+
+    /**
+     * Name of the HTML5 DnD Polyfill Stylesheet file.
+     *
+     * @since 8.1
+     */
+    public static final String MOBILE_DND_POLYFILL_STYLESHEET = "drag-drop-polyfill.css";
 }
